@@ -1,0 +1,26 @@
+{
+  "name": "quotebot",
+  "version": "1.0.0",
+  "description": "Random quote via telegram.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhiljha/QuoteBot.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Nikhil Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhiljha/QuoteBot/issues"
+  },
+  "homepage": "https://github.com/nikhiljha/QuoteBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.20.1",
+    "unirest": "^0.4.2"
+  }
+}
